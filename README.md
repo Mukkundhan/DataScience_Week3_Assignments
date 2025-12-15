@@ -54,5 +54,4 @@ These four programs collectively demonstrate proficiency in Python programming, 
 
 ---
 
-## 📜 License
-This repository is intended for educational purposes and may be freely modified or extended.
+
