@@ -1,47 +1,58 @@
-# DataScience_Week3_Assignments
-#Python Assignment – Week 3 (Data Science / AI Internship)
- Overview
-This repository contains my Week 3 Python Assignment completed as part of a Data Science / AI Internship. The assignment is designed to evaluate Python programming skills across multiple real‑world scenarios such as date handling, mathematical computation, file handling, data processing, and API integration.
+# 📘 Python Programming Mini Projects – Consolidated Report
 
-Each exercise is implemented in a separate Python file, following clean coding practices, proper error handling, and detailed comments for clarity.
+## 📌 Overview
+This repository contains four Python programs developed to demonstrate fundamental and intermediate programming concepts, including input validation, algorithm optimization, file handling, numerical processing, and REST API integration. Each program is designed with robust error handling and clean modular structure to ensure reliability and maintainability.
 
-Exercise Details
-🔹 Exercise 1: Age Calculator
-Accepts birth date in mm/dd/yyyy format
-Validates date input
-Calculates current age
-Converts date to European format (dd/mm/yyyy)
-Handles invalid inputs gracefully
-🔹 Exercise 2: Prime Number Generator
-Accepts a range of positive integers
-Finds all prime numbers in the range
-Displays output in a formatted manner (10 numbers per line)
-Includes proper input validation and error handling
-🔹 Exercise 3: Student Marks Processor
-Reads student data from a text file
-Computes overall marks using weighted logic
-Assigns grades based on rules
-Uses NumPy structured arrays
-Sorts students by overall marks
-Writes processed results to an output file
-Displays grade statistics
-🔹 Exercise 4: Weather Data Fetcher & Analyzer
-Uses OpenWeatherMap API to fetch real‑time weather data
-Analyzes temperature, wind speed, and humidity
-Generates weather condition summaries
-Logs data into a CSV file
-Implements API error handling and Unicode-safe file writing
+---
 
-Technologies Used:
-Python 3
-NumPy
-Requests
-CSV & File Handling
-OpenWeatherMap API
+## 1️⃣ Birth Date Validation and Age Calculator
+This program prompts the user to enter their birth date in **MM/DD/YYYY** format. The input is validated to ensure it is a correct calendar date. Once validated, the program calculates the user’s current age in years and converts the date into **European format (DD/MM/YYYY)**. All invalid formats, incorrect dates, and unexpected inputs are handled gracefully using exception handling.
 
-Conclusion
-This assignment helped me strengthen my Python fundamentals and gain hands‑on experience with real‑world data handling and API integration. It has enhanced my confidence in building robust and maintainable Python applications for Data Science and AI workflows.
+**Concepts Used:**
+- Date and time manipulation
+- Input validation
+- Exception handling
 
+---
 
+## 2️⃣ Prime Number Generator within a Range
+This program accepts two positive integers representing a numeric range and validates the inputs. It efficiently finds all prime numbers within the range using the **Sieve of Eratosthenes**, making it suitable for large input values. The output is formatted to display **10 prime numbers per line**, and clear error messages are shown for invalid input scenarios.
 
+**Concepts Used:**
+- Optimized algorithms
+- Number theory
+- Input validation
+- Formatted output
 
+---
+
+## 3️⃣ Student Marks Processing and Grading System
+This program reads student records from an input file containing registration numbers, exam marks, and coursework marks. It computes overall marks using predefined weightings, assigns grades based on grading rules, and stores the processed data in a **NumPy structured array**. The records are sorted by overall marks and written to an output file. Additionally, grade-wise statistics are displayed. The program includes robust handling for invalid records, missing files, and data errors.
+
+**Concepts Used:**
+- File input and output
+- NumPy structured arrays
+- Sorting and statistics
+- Error handling
+
+---
+
+## 4️⃣ Weather Data Fetching and Analysis using OpenWeatherMap API
+This program integrates with the **OpenWeatherMap API (Free Tier)** to fetch real-time weather data for a specified city. It analyzes temperature, humidity, and wind speed to generate meaningful insights such as weather classification (Cold, Mild, Hot) and alerts for extreme conditions. The results are logged into a CSV file with timestamps. The program gracefully handles invalid city names, API key issues, and network-related errors.
+
+**Concepts Used:**
+- REST API integration
+- JSON data processing
+- Data analysis
+- CSV file handling
+- Exception handling
+
+---
+
+## ✅ Conclusion
+These four programs collectively demonstrate proficiency in Python programming, covering algorithmic efficiency, structured data processing, file management, and external API integration. The implementations emphasize clarity, robustness, and real-world applicability, making them suitable for academic assessment and practical use.
+
+---
+
+## 📜 License
+This repository is intended for educational purposes and may be freely modified or extended.
